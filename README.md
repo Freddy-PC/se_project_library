@@ -14,8 +14,9 @@ The Practicum Library webpage is the first project in the Software Engineer prog
 
 You can visit the application by [Clicking Here](https://freddy-pc.github.io/se_project_library/)!
 
-Or copy any of this addresse into your search bar:
-https://freddy-pc.github.io/se_project_library/
+Or copy this address into your search bar:
+
+- https://freddy-pc.github.io/se_project_library/
 
 ## Tech & Techniques
 
@@ -23,6 +24,7 @@ The webpage was created using HTML and CSS based on a design brief.
 
 #### Tech/libraries
 
+- Visual Studio Code
 - Git Bash
 - GitHub
 - GitHub pages --> used to deploy the webpage
