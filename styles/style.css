@@ -6,6 +6,14 @@
   font-size: 16px;
   line-height: 20px;
 }
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__content {
+  flex-basis: 515px;
+}
 
 .header {
   height: 100vh;
@@ -53,7 +61,6 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px 0 0;
   max-width: 544px;
 }
 
@@ -63,13 +70,12 @@
   margin: 32px 0 0;
   max-width: 465px;
 }
-
+.header__cover {
+  max-width: 600px;
+}
 .header__image {
   z-index: 1;
-  max-width: 636px;
-  position: absolute;
-  top: 135px;
-  right: 20px;
+  max-width: 100%;
 }
 
 .header__footer {
@@ -179,7 +185,7 @@
 }
 
 .events__content {
-  flex-basis: 580px;
+  flex-basis: 580px; /* The initial main size of a flex item */
 }
 
 .events__heading {
