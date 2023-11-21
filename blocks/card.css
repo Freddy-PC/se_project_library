@@ -1,0 +1,39 @@
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+  max-width: 360px;
+  max-height: 420px;
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.card__footer {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
+  /* In our case, this pushes the element down to the bottom */
+  margin-top: auto;
+}
