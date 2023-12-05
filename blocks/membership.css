@@ -11,13 +11,15 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
+  padding: 0 30px;
 }
 
 .membership__steps {
   list-style-type: none;
-  padding: 0;
   margin: 100px 0 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  padding: 0 50px 0 50px;
 }

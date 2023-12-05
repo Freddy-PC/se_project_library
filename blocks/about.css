@@ -44,3 +44,11 @@
   left: -91px;
   z-index: 0;
 }
+@media screen and (max-width: 1200px) {
+  .about {
+    flex-direction: column;
+  }
+  .about__title {
+    margin: 0 0 120px 0;
+  }
+}
