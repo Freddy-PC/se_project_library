@@ -31,7 +31,7 @@
 .event-info__item {
   display: flex;
   align-items: center;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   font-weight: 500;
 }
 
@@ -49,8 +49,6 @@
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__text {
@@ -58,6 +56,7 @@
   font-weight: 500;
   line-height: 30px;
   margin: 0;
+  width: fit-content;
 }
 
 .events__description {
@@ -79,6 +78,7 @@
   flex-shrink: 0;
   max-width: 780px;
   position: relative;
+  overflow: hidden;
 }
 
 .events__image {
@@ -92,10 +92,23 @@
   }
   .events__content {
     flex-basis: unset;
+    padding-bottom: 75px;
   }
 }
+@media screen and (max-width: 700px) {
+  .event-info__text {
+    font-size: 17px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .events {
     padding: 100px 40px 120px 40px;
+  }
+  .events__title {
+    font-size: 32px;
+  }
+  .events__description {
+    font-size: 15px;
   }
 }
