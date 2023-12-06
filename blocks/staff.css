@@ -1,6 +1,5 @@
 .staff {
-  padding-top: 100px;
-  padding-bottom: 140px;
+  padding: 100px 40px 140px 40px;
   background-color: #f2f2f2;
 }
 
@@ -28,4 +27,13 @@
   gap: 40px;
   padding: 0;
   list-style: none;
+}
+@media screen and (max-width: 450px) {
+  .staff__title {
+    font-size: 35px;
+  }
+
+  .staff__subtitle {
+    font-size: 15px;
+  }
 }

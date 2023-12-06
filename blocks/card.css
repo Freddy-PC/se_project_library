@@ -37,3 +37,19 @@
   /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
+
+@media screen and (max-width: 480px) {
+  .card {
+    max-width: unset;
+    max-height: unset;
+  }
+  .card__title {
+    font-size: 15px;
+  }
+  .card__text {
+    font-size: 12px;
+  }
+  .card__footer {
+    font-size: 12px;
+  }
+}
