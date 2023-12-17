@@ -24,16 +24,18 @@ The webpage was created using HTML and CSS based on a design brief.
 
 #### Tech/libraries
 
+- Semantic HTML5
+- CSS 3
 - Visual Studio Code
 - Git Bash
 - GitHub
-- GitHub pages --> used to deploy the webpage
+- GitHub pages
 
 #### Techniques
 
-- Semantic HTML5
 - Flexbox
 - Positioning
 - Vertical stacking with z-index
 - Metadata for search Engine Optimization (SEO)
 - BEM Methodology
+- Media Queries
